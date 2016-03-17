@@ -1,8 +1,12 @@
-#include <QCoreApplication>
+#include <QGuiApplication>
+
+#include "rotatingsquarewindow.h"
 
 int main(int argc, char *argv[])
 {
-  QCoreApplication a(argc, argv);
-
+  QGuiApplication a(argc, argv);
+  RotatingSquareWindow window;
+  window.resize(640, 480);
+  window.show();
   return a.exec();
 }
