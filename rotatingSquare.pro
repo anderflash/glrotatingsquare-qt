@@ -1,6 +1,7 @@
 QT += core
-QT -= gui
+QT += gui
 QT += widgets
+QT += opengl
 
 CONFIG += c++11
 
@@ -16,4 +17,5 @@ SOURCES += main.cpp \
 
 HEADERS += \
     openglwindow.h \
-    rotatingsquarewindow.h
+    rotatingsquarewindow.h \
+    glassert.h
